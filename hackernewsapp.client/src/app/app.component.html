@@ -1,0 +1,22 @@
+<div class="header">
+  <div><span *ngIf="pageNum > 0"><button (click)="viewPrevPage()">&lt;&lt; Prev</button></span></div>
+  <div><span>Hacker News Feed</span></div>
+  <div><span *ngIf="stories && stories.length >= pageSize"><button (click)="viewNextPage()">Next &gt;&gt;</button></span></div>
+</div>
+
+<div class="search">
+  <input type="text" [(ngModel)]="this.query" /> 
+  <button (click)="searchStories()">Search</button>
+</div>
+
+<div class="stories">
+  <p class="loading" *ngIf="stories.length == 0">Loading...</p>
+
+  <section *ngIf="stories.length > 0">
+    <div *ngFor="let story of stories; let even = even" [ngClass]="{ even: even }">
+      <a href="{{story.url ? story.url : 'https://news.ycombinator.com/item?id=' + story.id}}">{{story.title}}</a>
+      <br />
+      {{story.score}} {{story.score > 1 ? 'points' : 'point'}} by {{story.by}} | {{story.time * 1000 | date:'medium'}}
+    </div>
+  </section>
+</div>

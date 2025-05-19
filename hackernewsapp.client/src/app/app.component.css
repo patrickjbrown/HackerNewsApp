@@ -1,0 +1,65 @@
+* {
+  font-family: Verdana;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header > div {
+  width: 33.33%;
+  text-align: center;
+}
+
+.header > div > span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.search {
+  margin: auto;
+  width: 60%;
+  padding: 25px;
+  text-align: center;
+}
+
+.stories {
+  margin: auto;
+  width: 60%;
+  padding: 25px;
+}
+
+.stories > section > div {
+    padding: 5px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.even {
+  background-color: #eeeeee;
+}
+
+a {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

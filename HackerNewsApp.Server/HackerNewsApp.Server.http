@@ -1,0 +1,6 @@
+@HackerNewsApp.Server_HostAddress = http://localhost:5274
+
+GET {{HackerNewsApp.Server_HostAddress}}/latest?pageNum=0&pageSize=25
+Accept: application/json
+
+###
