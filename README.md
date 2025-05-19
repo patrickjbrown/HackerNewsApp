@@ -2,6 +2,10 @@
 
 This project was written as part of an interview coding challenge. It provides an Angular-based client and a .NET Core based server to display stories using the [Hacker News API](https://github.com/HackerNews/API).
 
+## Build/Run Instructions
+
+Prior to running the app via Visual Studio, right-click the solution and select Properties. Ensure "Multiple startup projects" is selected, and that both the "hackernewsapp.client" and "HackerNewsApp.Server" projects are configured to run on startup.
+
 ## Task
 
 The requirements of the coding challenge were as follows (descriptions modified to prevent cheating/Google-ability):
