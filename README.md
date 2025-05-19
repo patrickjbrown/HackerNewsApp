@@ -19,6 +19,19 @@ For the back-end:
 * Make use of dependency injection.
 * Include automated tests.
 
+## Skills / Concepts / Technologies
+
+This project showcases the following skills, concepts, and technologies:
+
+* C#
+* .NET Core 9.0
+* .NET Core MVC
+* Angular 19
+* Swagger
+* REST APIs
+* Unit testing / NSubstitute
+* HTML / CSS / JSON / JavaScript
+
 ## Resources
 
 The following non-Microsoft NuGet packages were included in this solution:
