@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "hackernewsapp.client\\hackernewsapp.client.esproj",
+        "Action": "Start",
+        "DebugTarget": "localhost (Edge)"
+      },
+      {
+        "Path": "HackerNewsApp.Server\\HackerNewsApp.Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

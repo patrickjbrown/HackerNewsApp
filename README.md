@@ -30,7 +30,8 @@ This project showcases the following skills, concepts, and technologies:
 * Swagger
 * REST APIs
 * Unit testing / NSubstitute
-* HTML / CSS / JSON / JavaScript
+* JavaScript / TypeScript
+* HTML / CSS / JSON
 
 ## Resources
 
