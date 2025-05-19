@@ -55,5 +55,3 @@ nunit-*.xml
 
 # Visual Studio
 .vs/
-HackerNewsApp.client/*.user
-HackerNewsApp.Server/*.user
